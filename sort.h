@@ -1,6 +1,12 @@
 #ifndef _SORT_H_
 #define _SORT_H_
 #include <stddef.h>
+#include <stdio.h>
+#include <stdlib.h>
+
+/* Comparison direction macros for bitonic sort */
+#define UP 0
+#define DOWN 1
 
 /**
  * struct listint_s - Doubly linked list node
